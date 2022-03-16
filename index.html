@@ -1,12 +1,48 @@
+<!DOCTYPE html>
 <html>
- <head>
-  <title>Danielle's Projects</title>
-  <link rel="stylesheet" type="text/css" href="https://djrob19.github.io/index.css">
- </head>
-<body>
-  <h1>Danielle Robinson</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+    <head>
+        <title>Danielle's Cheatsheet</title>
+        <link href="./styles.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>CSS Box Model Reference</h1>
+        <!-- Box Model Diagram -->
+        <h2>Box Model</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh84aRZn_1oaQWrwWqE-gO_x9EJJb4o_1KFA&usqp=CAU">
+        <p>Everything in CSS has a box around it, and understanding these boxes is key to being able to create layouts with CSS, or to align items with other items</p>
+        <h2>Box Model Properties</h2>
+
+        <!--Table stuff-->
+        <table>
+            <thead>
+               <tr>
+                    <th id="space">Part of Box</th>
+                    <th>Properties</th>
+                    <th id="desc">Description/Details</th>
+                </tr> 
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Content Box</td>
+                    <td id="element"><span>width, height</span></td>
+                    <td>The area where your content is displayed, sized using these properties</td>
+                </tr>
+                <tr>
+                    <td>Padding Box</td>
+                    <td id="element"> <span>padding</span></td>
+                    <td>The padding sits around the content as white space; its size can be controlled by this property</td>
+                </tr>
+                <tr>
+                    <td>Border Box</td>
+                    <td id="element"><span>border</span></td>
+                    <td>The border box wraps the content and any padding. Its size and style can be controlled using this property</td>
+                </tr>
+                <tr>
+                    <td>Margin Box</td>
+                    <td id="element"><span>margin</span></td>
+                    <td>The margin is the outermost layer, wrapping the content, padding, and border as whitespace between this box and other elements. Its size can be controlled using this property</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
 </html>
